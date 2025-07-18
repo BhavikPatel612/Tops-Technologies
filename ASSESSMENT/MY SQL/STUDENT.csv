@@ -1,0 +1,15 @@
+STD_ID,STD_NAME,SEX,PERCENTAGE,CLASS,SEC,STREAM,DOB
+1001,"surekha joshi",female,82,12,a,science,1998-08-03
+1002,"maahi agarwal",female,56,11,c,commerce,2008-11-23
+1003,"sanam verma",male,59,11,c,commerce,2006-06-29
+1004,"ronit kumar",male,63,11,c,commerce,1997-11-05
+1005,"dipesh pulkit",male,78,11,b,science,2003-09-14
+1006,"jahanvi puri",female,60,11,b,commerce,2008-11-07
+1007,"sanam kumar",male,23,12,f,commerce,1998-08-03
+1008,"sahil saras",male,56,11,c,commerce,2008-11-07
+1009,"akshra agarwal",female,72,12,b,commerce,1996-10-01
+1010,"stuti mishra",female,39,11,f,science,2008-11-23
+1011,"harsh agarwal",male,42,11,c,science,1998-03-08
+1012,"nikunj agarwal",male,49,12,c,commerce,1998-06-28
+1013,"akriti saxena",female,89,12,a,science,2008-11-23
+1014,"tani rastogi",female,82,12,a,science,2008-11-23

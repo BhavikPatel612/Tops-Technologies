@@ -1,0 +1,9 @@
+worker_id,first_name,last_name,salary,joining_datetime,department
+1,Monika,Arora,100000,"2014-02-20 09:00:00",HR
+2,niharika,verma,80000,"2014-11-06 09:00:00",admin
+3,vishal,singhal,300000,"2014-02-20 09:00:00",hr
+4,amitabh,singh,500000,"2014-02-20 09:00:00",admin
+5,vivek,bhati,500000,"2014-11-06 09:00:00",admin
+6,vipul,diwan,200000,"2014-11-06 09:00:00",account
+7,satish,kumar,75000,"2014-01-20 09:00:00",account
+8,geetika,chauhan,90000,"2014-11-04 09:00:00",admin
