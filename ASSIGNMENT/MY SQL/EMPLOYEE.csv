@@ -1,0 +1,5 @@
+employeeid,firstname,lastname,salary,hiredate,jobtitle,email,phone
+1,bhavik,patel,20000.00,2000-12-23,"data analytics",bhavikpatel612@gmail.com,8141330369
+2,lesley,bland,30000.00,2001-10-24,"computer operetor",lesley123@gmail.com,2155558800
+3,jack,lee,40000.00,1997-10-24,"hardware technology",jacklee123@gmail.com,8141332369
+4,simit,patel,50000.00,2000-10-23,networking,simit333@gmail.com,9977563481

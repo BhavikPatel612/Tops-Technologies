@@ -1,0 +1,105 @@
+# assignment-1 mysql
+
+use mydb;
+
+# (1) Statement to create the Contact table
+# ANS:-
+create table contact
+(
+contactid int primary key,
+firstname varchar(45),
+lastname varchar(45),
+street varchar(45),
+city varchar(45),
+state varchar(45),
+zip varchar(45),
+ismain tinyint,
+email varchar(45),
+phone bigint,
+foreign key (contactid) references company(companyid));
+-- This query creates the Contact table to store details like name, address, email, and phone number of each contact.
+-- The contactid is the primary key and also a foreign key referencing the company table.
+
+# (2)Statement to create the Employee table 
+# ANS:-
+create table employee
+(
+employeeid int primary key,
+firstname varchar(45),
+lastname varchar(45),
+salary decimal(10,2),
+hiredate date,
+jobtitle varchar(45),
+email varchar(45),
+phone bigint);
+-- This query creates the Employee table containing employee details like name, salary, hire date, job title, etc.
+-- The employeeid is the primary key.
+
+/*
+ (3)Statement to create the ContactEmployee table  HINT: Use DATE as the datatype for ContactDate. It allows you to store the 
+   date in this format: YYYY-MM-DD (i.e., ‘2014-03-12’ for March 12, 2014).
+*/
+#ANS:-
+create table contactemployee
+(
+contactemployeeid int primary key,
+contactdate date,
+description varchar(45),
+foreign key (contactemployeeid) references employee(employeeid),
+foreign key (contactemployeeid) references contact(contactid));
+-- This table stores the relationship between employees and contacts, indicating which employee contacted whom and when.
+-- The contactdate uses the DATE datatype in 'YYYY-MM-DD' format.
+
+insert into contactemployee values(1,"1994-10-23","food is very good",1,1);
+-- Insert one sample record into the ContactEmployee table
+
+# (4)In the Employee table, the statement that changes Lesley Bland’s phone number to 215-555-8800 
+#ANS:- 
+update employee set phone=2155558800 where employeeid=2;
+-- This query updates the phone number for the employee with employeeid = 2.
+
+#(5) In the Company table, the statement that changes the name of “Urban Outfitters, Inc.” to “Urban Outfitters” .
+#ANS:- 
+update company set comapanyname="urban outfiltters" where companyid=2;
+-- This query changes the company name from “Urban Outfitters, Inc.” to “Urban Outfitters”.
+
+/*
+ (6) What is the significance of “%” and “_” operators in the LIKE statement? 
+  ANS :-In SQL, the % and _ are wildcard characters used with the LIKE operator for pattern matching
+      % matches zero or more characters.
+      _ matches exactly one characte.
+  */
+  
+/*
+(7) Explain normalization in the context of databases. 
+ ANS:- Normalization is a process used to organize data in a database to reduce redundancy and
+  improve data integrity. It involves dividing large tables into smaller related tables.
+  Normal Forms:- 
+  1NF: No repeating groups.
+  2NF: No partial dependency.
+  3NF: No transitive dependency.
+  */
+  
+/*
+(8) What does a join in MySQL mean?
+ ANS:- A JOIN in MySQL is used to combine rows from two or more tables based on a related column. It
+    helps to retrieve data that is spread across multiple tables.
+*/
+
+/*
+(9) What do you understand about DDL, DCL, DML,TCL in MySQL? 
+  ANS:- DDL (Data Definition Language): For defining structure (CREATE, ALTER, DROP)
+        DML (Data Manipulation Language): For data (SELECT, INSERT, UPDATE, DELETE)
+        DCL (Data Control Language): For permissions (GRANT, REVOKE)
+        TCL (Transaction Control Language): For transactions (COMMIT, ROLLBACK, SAVEPOINT)
+*/
+
+/*
+ (10)What is the role of the MySQL JOIN clause in a query, and what are some 
+    common types of joins? 
+  ANS:- The JOIN clause retrieves data from multiple tables. 
+     Common types:- 
+    - INNER JOIN: Only matching rows
+    - LEFT JOIN: All from left + matches from right
+    - RIGHT JOIN: All from right + matches from left
+    - SELF JOIN: A table joined with itself

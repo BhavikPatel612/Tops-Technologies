@@ -1,0 +1,4 @@
+contactid,firstname,lastname,street,city,state,zip,ismain,email,phone,Company_companyid
+1,bhavik,patel,"jiviba school",ahmedabad,guajarat,380050,1,bhavikpatel612@gmail.com,8141330369,1
+2,Dianne,Connor’s,KANKARIYA,AHMEDABAD,gujarat,380023,1,corner999@gmail.com,8141330368,3
+3,simit,patel,godasar,ahmedabad,gujarat,380018,1,simit333@gmail.com,9977563481,4
