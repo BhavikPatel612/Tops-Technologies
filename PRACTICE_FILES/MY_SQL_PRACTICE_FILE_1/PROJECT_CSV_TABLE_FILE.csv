@@ -1,0 +1,51 @@
+Project_Name,Task_Name,Assigned_to,Start_Date,Days_Required,End_Date,Progress
+Marketing,"Market Research",Alice,2024-01-01,13,2024-01-14,78%
+Marketing,"Content Creation",Bob,2024-01-14,14,2024-01-28,100%
+Marketing,"Social Media Planning",Charlie,2024-01-28,22,2024-02-19,45%
+Marketing,"Campaign Analysis",Daisy,2024-02-18,25,2024-03-14,0%
+"Product Dev","Prototype Development",Ethan,2024-01-02,18,2024-01-20,100%
+"Product Dev","Quality Assurance",Fiona,2024-01-20,10,2024-01-30,78%
+"Product Dev","User Interface Design",Gabriel,2024-02-04,25,2024-02-29,0%
+"Customer Svc","Service Improvement",Hannah,2024-02-01,22,2024-02-23,100%
+"Customer Svc","Ticket Resolution",Ian,2024-02-24,25,2024-03-20,100%
+"Customer Svc","Customer Feedback",Julia,2024-03-21,30,2024-04-20,0%
+Financial,"Budget Analysis",Kevin,2024-02-02,22,2024-02-24,10%
+Financial,"Financial Reporting",Mark,2024-02-13,21,2024-02-09,78%
+Financial,"Investment Planning",Mark,2024-03-19,25,2024-04-13,100%
+Research,"Market Trends Analysis",Nathan,2024-01-02,23,2024-01-25,50%
+Research,"Data Collection",Olivia,2024-01-26,32,2024-02-27,0%
+Research,"Research Paper Writing",Peter,2024-02-28,27,2024-03-26,0%
+Development,"Software Development",Quinn,2024-01-02,36,2024-02-07,100%
+Development,"Feature Enhancement",Rachel,2024-02-08,34,2024-03-13,0%
+Development,"Code Review",Sam,2024-03-14,30,2024-04-13,0%
+Production,Manufacturing,Tim,2024-01-03,47,2024-02-19,30%
+Production,"Quality Control",Ursula,2024-02-17,27,2024-03-15,0%
+Production,"Packaging Design",Victor,2024-03-14,22,2024-04-05,0%
+Sales,"Lead Generation",Wendy,2024-01-03,60,2024-03-03,70%
+Sales,"Client Meetings",Xavier,2024-01-06,20,2024-01-26,78%
+Sales,"Contract Negotiation",Yvette,2024-02-03,35,2024-03-09,0%
+Support,"Technical Support",Zoe,2024-01-01,25,2024-01-26,100%
+Support,"Bug Fixes",Aaron,2024-01-27,31,2024-02-27,100%
+Support,"Software Updates",Bella,2024-03-02,22,2024-03-24,0%
+Operations,"Process Optimization",Calvin,2024-01-03,30,2024-02-02,40%
+Operations,"Inventory Management",Diane,2024-02-03,25,2024-02-28,0%
+Operations,"Facility Maintenance",Edward,2024-02-29,20,2024-03-20,0%
+Consulting,"Strategic Planning",Fiona,2024-01-02,35,2024-02-06,60%
+Consulting,"Market Expansion",Gary,2024-02-02,32,2024-03-05,0%
+Consulting,"Client Advisory",Helen,2024-03-06,25,2024-03-31,0%
+Training,"Employee Training",Isaac,2024-01-04,27,2024-01-31,80%
+Training,"Certification Programs",Jane,2024-01-28,30,2024-02-27,0%
+Training,"Skill Development",Kyle,2024-02-28,22,2024-03-21,0%
+Events,"Event Planning",Laura,2024-01-03,25,2024-01-28,30%
+Events,"Conference Management",Mike,2024-02-03,20,2024-02-23,0%
+Events,"Sponsorship Coordinatio","n Nancy",2024-02-24,35,2024-03-30,0%
+Logistics,"Supply Chain Management",Oscar,2024-01-03,25,2024-01-28,50%
+Logistics,"Transportation Planning",Patricia,2024-01-29,30,2024-02-28,100%
+Logistics,"Inventory Optimization",Quentin,2024-03-29,20,2024-04-18,0%
+Engineering,"Product Design",Rachel,2024-01-02,25,2024-01-27,20%
+Engineering,"System Integration",Sam,2024-02-02,22,2024-02-24,0%
+Engineering,"Prototype Testing",Tom,2024-02-23,27,2024-03-21,0%
+Logistics,"Inventory Optimization",Quentin,2024-03-29,20,2024-04-18,0%
+Engineering,"Product Design",Rachel,2024-01-02,25,2024-01-27,20%
+Engineering,"System Integration",Sam,2024-02-02,22,2024-02-24,0%
+Engineering,"Prototype Testing",Tom,2024-02-23,27,2024-03-21,0%
